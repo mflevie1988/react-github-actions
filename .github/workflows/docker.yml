@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: docker build stage
-    - run: docker build . -t react-github-actions
+      run: docker build . -t react-github-actions
