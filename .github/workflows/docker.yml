@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Docker Image Building Stage
-    - run: docker build -t react-github-actions .
+    - name: docker build stage
+    - run: docker build . -t react-github-actions
